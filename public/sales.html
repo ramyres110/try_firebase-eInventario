@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>e-iventario</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css"
+		media="screen">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		media="screen">
+	<link rel="stylesheet" href="css/global.css">
+</head>
+
+<body class="m-0 py-5 bg-white">
+
+	<div class="pos-f-t fixed-top">
+		<nav class="navbar navbar-dark bg-dark p-0 border-0">
+			<div>
+
+				<button class="navbar-toggler border-0 text-light" type="button" data-toggle="collapse"
+					data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="btn m-0 border-0 p-0">
+						<i class="fa fa-bars fa-2x"></i>
+					</span>
+				</button>
+
+				<a class="navbar-brand border-0" href="/">e-Inventário</a>
+			</div>
+			<a class="btn m-0 p-1 text-white bg-info mr-1 px-3" href="/sales-new">
+				<i class="fa fa-plus fa-2x"></i>
+			</a>
+		</nav>
+		<div class="collapse w-100" id="navbarToggleExternalContent">
+			<div class="py-0">
+				<div class="list-group list-group-flush">
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-money mr-3"></i>
+						Financeiro
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-shopping-cart mr-3"></i>
+						Vender
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-shopping-bag mr-3"></i>
+						Vendas
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-archive mr-3"></i>
+						Produtos
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-users mr-3"></i>
+						Clientes
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-globe mr-3"></i>
+						Plataformas
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-cog mr-3"></i>
+						Configurações
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-secondary py-3">
+						<i class="fa fa-user-circle-o mr-3"></i>
+						Perfil
+					</a>
+					<a href="/" class="list-group-item list-group-item-action list-group-item-danger py-3">
+						<i class="fa fa-close mr-3"></i>
+						Sair
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main class="pt-3 pb-3">
+		<div class="row m-0">
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="card">
+					<div class="card-body p-2">
+						<div class="row">
+							<div class="col-5">
+								<p class="m-0 p-0">R$</p>
+								<h2>9880,46</h2>
+							</div>
+							<div class="col-7">
+								<p class="m-0 p-0">
+									<span class="small text-muted">Produto:</span>
+									#2 - Patins...
+								</p>
+								<p class="m-0 p-0">
+									<span class="small text-muted">Cliente:</span>
+									Ana Maria...
+								</p>
+								<p class="m-0 p-0">
+									<span class="small text-muted">Plataforma:</span>
+									facebook
+								</p>
+								<p class="m-0 p-0">
+									<span class="small text-muted">Data:</span>
+									10/10/2019
+								</p>
+								<p class="m-0 p-0">
+									<span class="small text-muted">Status:</span>
+									entregue
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer text-right p-2">
+						<a href="sales-detail.html?id=1" class="btn btn-secondary">DETALHE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<nav class="nav nav-pills nav-justified bg-dark fixed-bottom d-sm-block d-md-none">
+		<a class="nav-item nav-link rounded-0" href="#" title="Vender">
+			<i class="fa fa-shopping-cart fa-3x"></i>
+		</a>
+		<a class="nav-item nav-link rounded-0" href="#" title="Produtos">
+			<i class="fa fa-archive fa-3x"></i>
+		</a>
+		<a class="nav-item nav-link rounded-0" href="#" title="Plataformas">
+			<i class="fa fa-globe fa-3x"></i>
+		</a>
+		<a class="nav-item nav-link rounded-0" href="#" title="Configurações">
+			<i class="fa fa-cog fa-3x"></i>
+		</a>
+	</nav>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
